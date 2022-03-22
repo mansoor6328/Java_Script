@@ -1,0 +1,26 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    height: 100vh;
+    /* flex-direction: column;
+    flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap;
+    flex-flow: column wrap; */
+}
+
+.flex-item{
+    border: 2px solid red;
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+}
+
+.item1{
+    order: 3;
+    flex-grow: 1;
+    flex-shrink: 2;
+    align-self: baseline;
+}
