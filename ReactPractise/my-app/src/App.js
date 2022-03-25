@@ -1,12 +1,16 @@
+import React, { Component } from "react";
 import "./App.css";
-import NewList from "./components/NewList";
+import ClickCounter from "./components/ClickCounter";
+import ColourChange from "./components/ColourChange";
 
-function App() {
-  return (
-    <div className="App">
-      <NewList />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <ColourChange />
+      </div>
+    );
+  }
 }
 
 export default App;

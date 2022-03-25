@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Message extends Component {
   constructor(props) {
-    super(props);
+    super();
     this.state = {
       message: "Welcome Message",
     };
@@ -14,6 +14,7 @@ class Message extends Component {
     });
   };
   render() {
+    console.log(this.props.value);
     return (
       <div>
         <h1>{this.state.message}</h1>
