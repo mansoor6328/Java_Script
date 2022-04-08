@@ -1,4 +1,4 @@
-.flex-container{
+/* .flex-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
     /* flex-direction: column-reverse; */
     /* flex-wrap: wrap;
     flex-flow: column wrap; */
-}
+/* }
 
 .flex-item{
     border: 2px solid red;
@@ -23,4 +23,11 @@
     flex-grow: 1;
     flex-shrink: 2;
     align-self: baseline;
+}  */
+
+.flex-container{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
 }

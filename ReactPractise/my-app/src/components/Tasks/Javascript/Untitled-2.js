@@ -12,3 +12,5 @@ for(let i=1;i<str1.length;i++){
    }
 }
 console.log(minString);
+
+const array = [[1,2,3],[4,8,7]]
