@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import Api from "./components/ScenarioBased/Api";
+import HookMouse from "./components/FunctionalComponents/UseEffect/HookMouse";
 
 function App() {
   return <div className="App">
-    <Api />
+    <HookMouse />
   </div>;
 }
 
