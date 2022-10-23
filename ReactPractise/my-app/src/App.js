@@ -1,11 +1,15 @@
 import React from "react";
 import "./App.css";
-import HookMouse from "./components/FunctionalComponents/UseEffect/HookMouse";
+import Example4 from "./components2/usestate/Example4";
 
 function App() {
-  return <div className="App">
-    <HookMouse />
-  </div>;
+  return (
+    <div className="App">
+      {/* <Example3 initialValue={0} />
+      <Example3 initialValue={1} /> */}
+      <Example4 />
+    </div>
+  );
 }
 
 export default App;
