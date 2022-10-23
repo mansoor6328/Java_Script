@@ -121,3 +121,20 @@ const arr = [
   console.log(ar);
   console.log(arr1);
   
+  // const arr= [1,2,3,[2,2],[3,[4,4,[4]],5],3,2];
+
+// const  ar=[]
+
+// arr.forEach(i=>{if(typeof i=='object'){
+//         i.forEach(a=>{if(typeof a=='object'){
+//             a.forEach(x=>ar.push(x))
+//         }
+//         else ar.push(a)
+//     })                                
+// }
+// else ar.push(i)
+// })
+
+
+
+// console.log(ar);
